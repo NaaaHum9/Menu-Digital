@@ -18,6 +18,7 @@ cd frontend
 npm install
 npm i react-router-dom
 npm run dev
+---
 
 ### Backend
 ```bash
@@ -27,3 +28,4 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python init_db.py  
 python app.py
+---
