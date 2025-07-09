@@ -1,0 +1,142 @@
+/* Elimina márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que el HTML y el body ocupen toda la pantalla */
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* Si usas algún contenedor raíz */
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.arroz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.arroz-section {
+    margin-bottom: 2rem;
+}
+
+.arroz-list {
+    list-style: none;
+    padding: 0;
+}
+
+.arroz-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.guisados-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.guisado-section {
+    margin-bottom: 2rem;
+}
+
+.guisado-list {
+    list-style: none;
+    padding: 0;
+}
+
+.guisado-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.sopas-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.sopas-section {
+    margin-bottom: 2rem;
+}
+
+.sopas-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sopas-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.extras-section{
+    padding-left: 1rem;
+}
+
+.extras-section h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.extras-section ul {
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+@media (max-width: 600px) {
+    .guisado-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section input,
+    .input-section button {
+        width: 100%;
+    }
+}

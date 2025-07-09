@@ -1,0 +1,44 @@
+# ========== BACKEND ==========
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database
+*.db
+
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de logs o config
+*.log
+instance/
+*.sqlite3
+*.db-journal
+
+# ========== FRONTEND ==========
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# ========== GLOBAL ==========
+# IDEs y editores
+.vscode/
+.idea/
+
+# Entornos y archivos personales
+.env
+*.env
+
+# En backend/.gitignore
+database.db
+__pycache__/

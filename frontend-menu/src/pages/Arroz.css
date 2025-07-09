@@ -1,0 +1,101 @@
+.arroz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.arroz-section {
+    margin-bottom: 2rem;
+}
+
+.arroz-list {
+    list-style: none;
+    padding: 0;
+}
+
+.arroz-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.input-section input {
+    flex: 1 1 200px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.input-section button {
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: #27ae60;
+}
+
+.extras-section{
+    padding-left: 1rem;
+}
+
+.extras-section h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.extras-section ul {
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+@media (max-width: 600px) {
+    .guisado-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section input,
+    .input-section button {
+        width: 100%;
+    }
+}
